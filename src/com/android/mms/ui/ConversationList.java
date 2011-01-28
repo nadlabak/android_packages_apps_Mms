@@ -361,6 +361,7 @@ public class ConversationList extends ListActivity
             long tid = conv.getThreadId();
 
             openThread(tid);
+        }
     }
 
     private void createNewMessage() {
